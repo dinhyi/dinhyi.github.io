@@ -1,1 +1,151 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="一个简洁的个人主页">
+    <meta name="author" content="你的名字">
+    
+    <title>你的名字 - 个人主页</title>
 
+    <style>
+        /* --- 全局样式 --- */
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* --- 容器样式 --- */
+        .container {
+            width: 80%;
+            max-width: 960px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+
+        /* --- 头部样式 --- */
+        header {
+            text-align: center;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eeeeee;
+        }
+
+        header h1 {
+            margin: 0;
+            color: #0056b3;
+            font-size: 2.5em;
+        }
+
+        header p {
+            margin: 8px 0 0;
+            color: #666;
+            font-size: 1.1em;
+        }
+
+        /* --- 区域标题样式 --- */
+        h2 {
+            color: #0056b3;
+            border-bottom: 2px solid #0056b3;
+            padding-bottom: 5px;
+            margin-top: 30px;
+        }
+
+        /* --- 链接样式 --- */
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        /* --- 列表样式 --- */
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        /* --- 页脚样式 --- */
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #eeeeee;
+            font-size: 0.9em;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <header>
+            <h1>你的名字</h1>
+            <p>这里写一句简短的自我介绍，例如：软件工程师 | 摄影爱好者 | 终身学习者</p>
+        </header>
+
+        <section id="about">
+            <h2>关于我</h2>
+            <p>
+                这里可以写一段详细的自我介绍。介绍你的背景、你的热情所在以及你的专业技能。你可以提到你的教育经历、工作经验或者你对未来的展望。
+            </p>
+        </section>
+
+        <section id="projects">
+            <h2>我的项目</h2>
+            <ul>
+                <li>
+                    <strong>项目一:</strong> 这是一个示例项目。在这里简单描述一下这个项目是做什么的，你扮演了什么角色，以及使用了哪些技术。 <a href="#">[查看详情]</a>
+                </li>
+                <li>
+                    <strong>项目二:</strong> 你可以列出你引以为豪的几个项目，无论是工作中的、学校里的还是个人业余时间完成的。 <a href="#">[查看详情]</a>
+                </li>
+                <li>
+                    <strong>项目三:</strong> 如果项目有在线链接或者代码仓库，记得放上链接。
+                </li>
+            </ul>
+        </section>
+
+        <section id="skills">
+            <h2>技能清单</h2>
+            <p>
+                <strong>前端:</strong> HTML, CSS, JavaScript, React<br>
+                <strong>后端:</strong> Python, Node.js, Django<br>
+                <strong>数据库:</strong> MySQL, MongoDB<br>
+                <strong>工具:</strong> Git, Docker, Spack
+            </p>
+        </section>
+
+        <section id="contact">
+            <h2>联系我</h2>
+            <p>
+                你可以通过以下方式找到我：
+            </p>
+            <ul>
+                <li><strong>电子邮件:</strong> <a href="mailto:your.email@example.com">your.email@example.com</a></li>
+                <li><strong>GitHub:</strong> <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></li>
+                <li><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></li>
+            </ul>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 你的名字. 保留所有权利。</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
